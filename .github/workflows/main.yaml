@@ -4,9 +4,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  say-hello:
+  say-welcome:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Hello World
-      run: echo "Hello, World!"
+    - name: Print Welcome World
+      run: echo "Welcome, World!"
+
+  say-bye:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Bye World
+      run: echo "Bye , World!"
