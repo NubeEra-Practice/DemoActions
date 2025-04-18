@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Welcome World
-      run: echo "Welcome, World!"
+    - name: Print Welcome Fouzi
+      run: echo "Welcome, Fouzi!"
 
   say-bye:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Bye World
-      run: echo "Bye , World!"
+    - name: Print Bye Fouzi
+      run: echo "Bye , Fouzi!"
